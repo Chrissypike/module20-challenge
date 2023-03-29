@@ -1,8 +1,20 @@
-import React from 'react';
-import Form from './components/index';
+import React from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
-  return <Form />;
+  return (
+    <div>
+      <Navbar />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Resume />
+    </div>
+  );
 }
 
 export default App;
