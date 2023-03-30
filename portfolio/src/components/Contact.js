@@ -21,6 +21,16 @@ function Contact() {
                     label='Name'
                     type='text'
                 />
+                <label>Email:</label>
+                <input
+                    label='Email'
+                    type='text'
+                />
+                <label>Message:</label>
+                <input
+                    label='Message'
+                    type='text'
+                />
             </form>
 
         </div>
